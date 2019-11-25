@@ -1,0 +1,9 @@
+[aws]
+region=us-east-1
+
+
+[packages]
+database=psycopg2-binary SQLAlchemy GeoAlchemy2 shapely
+crypto_modules=pycryptodome==3.7.1 cryptography python-jose asn1crypto
+google_auth=google-auth
+requests=requests
